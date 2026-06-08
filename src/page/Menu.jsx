@@ -4,8 +4,16 @@ import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Swal from "sweetalert2";
 
-
+const HandleBeli = () => {
+    Swal.fire({
+      title: "Berhasil!",
+      text: "Pesanan berhasil ditambahkan",
+      icon: "success",
+      confirmButtonText: "OK",
+    });
+  };
 
 export default function Menu() {
   return (
@@ -75,7 +83,8 @@ export default function Menu() {
                     </div>
                   </div>
                   <button
-                    className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
+onClick={HandleBeli}                  
+                  className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
                     style={{
                       borderRadius: "10px",
                     }}
@@ -130,7 +139,8 @@ export default function Menu() {
                     </div>
                   </div>
                   <button
-                    className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
+onClick={HandleBeli}                  
+                  className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
                     style={{
                       borderRadius: "10px",
                     }}
@@ -185,7 +195,8 @@ export default function Menu() {
                     </div>
                   </div>
                   <button
-                    className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
+onClick={HandleBeli}                  
+                  className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
                     style={{
                       borderRadius: "10px",
                     }}
@@ -240,7 +251,8 @@ export default function Menu() {
                     </div>
                   </div>
                   <button
-                    className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
+onClick={HandleBeli}                  
+                  className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
                     style={{
                       borderRadius: "10px",
                     }}
@@ -295,7 +307,8 @@ export default function Menu() {
                     </div>
                   </div>
                   <button
-                    className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
+onClick={HandleBeli}                  
+                  className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
                     style={{
                       borderRadius: "10px",
                     }}
@@ -350,7 +363,8 @@ export default function Menu() {
                     </div>
                   </div>
                   <button
-                    className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
+onClick={HandleBeli}                  
+                  className="w-100 py-2 fw-semibold text-white border-0 btn btn-danger"
                     style={{
                       borderRadius: "10px",
                     }}
