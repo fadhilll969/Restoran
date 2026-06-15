@@ -566,7 +566,7 @@ export default function Menu() {
                   </div>
                   <Card.Body className="d-flex flex-column p-4">
                     <Card.Title className="fw-bold fs-5 mb-1">
-                      Air Putih 
+                      Air Putih
                     </Card.Title>
                     <Card.Text className="text-muted small flex-grow-1 mb-4">
                       Air putih dingin segar
